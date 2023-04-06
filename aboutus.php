@@ -61,52 +61,25 @@
   <!-- End Navbar -->
 
  <!-- Layout – Containers – Grid - Card -->
- <section id="kegiatan" class="p-5">
+ <section id="aboutus" class="p-5 bg-light">
     <div class="container">
       <div class="row text-center mb-5">
         <div class="col">
-          <h2>Activity</h2>
+          <h2>ABOUT US</h2>
         </div>
       </div>
       <!-- CARD column-->
       <div class="row">
-        <div class="col-md-3 mb-3 text-center">
-          <div class="card">
-            <img src="img/coding1.jpg" class="card-img-top" alt="MAaf GAmbar ini Rusak">
-            <div class="card-body">
-              <h5 class="card-title">Activity 1</h5>
-              <p class="card-text">Pengenalan HTML 5 dan CSS 3, Dalam pembuatan Suatu Website.</p>
-              <a href="#" class="btn btn-primary">See Details</a>
+        <div class="col-md-8">
+              <h3>History</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi laboriosam perferendis dolore incidunt error iste laudantium odit, veniam fugit. Laudantium sequi reiciendis optio quas vero iusto voluptatem, ab quam praesentium eos voluptatibus nemo repudiandae voluptas illum ex aliquam deserunt ipsum explicabo blanditiis temporibus! Mollitia incidunt facilis provident praesentium, doloribus corrupti ipsam, laborum quasi soluta rem necessitatibus sint animi rerum repellat? Esse impedit quo beatae. Est blanditiis, totam possimus veniam quia assumenda minus! Dicta nemo fuga dolorem vitae fugiat! Nemo fugit harum a labore, provident facere natus reprehenderit, animi doloremque alias adipisci aspernatur excepturi vero expedita doloribus ducimus, saepe nobis nihil? Ducimus mollitia fugit labore, quae debitis facilis aperiam molestiae consequatur enim voluptates dolor deleniti, fugiat architecto distinctio. Provident, doloremque harum.</p>
             </div>
-          </div>
-        </div>
-        <div class="col-md-3 mb-3 text-center">
-          <div class="card">
-            <img src="img/coding2.jpg" class="card-img-top" alt="MAaf GAmbar ini Rusak">
-            <div class="card-body">
-              <h5 class="card-title">Activity 2</h5>
-              <p class="card-text">HTML 5 dan CSS 3 Lanjutan + Penggunaan Library Bootstarp 5.3.</p>
-              <a href="#" class="btn btn-primary">See Details</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 mb-3 text-center">
-          <div class="card">
-            <img src="img/coding3.jpg" class="card-img-top" alt="MAaf GAmbar ini Rusak">
-            <div class="card-body">
-              <h5 class="card-title">Activity 3</h5>
-              <p class="card-text">Pengenalan Bahasa Pemograman PHP (Hypertext Preprocessor).</p>
-              <a href="#" class="btn btn-primary">See Details</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 mb-3 text-center">
-          <div class="card">
-            <img src="img/coding4.jpg" class="card-img-top" alt="MAaf GAmbar ini Rusak">
-            <div class="card-body">
-              <h5 class="card-title">Activity 4</h5>
-              <p class="card-text">Mengimplementasi PHP kedalam sebuah website dan PHP Lanjutan.</p>
-              <a href="#" class="btn btn-primary">See Details</a>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="img/kampusit.jpg" alt="Maaf Gambar Sedang Rusak">
+              <div class="card-body">
+                <p class="text-center">KelasIT.com, 21 Maret 2023</p>
+              </div>
             </div>
           </div>
         </div>
