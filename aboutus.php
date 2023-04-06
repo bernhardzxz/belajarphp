@@ -88,6 +88,47 @@
   </section>
   <!-- End Layout – Containers – Grid - Card -->
 
+  <!-- visi,misi -->
+  <section id="aboutus" class="p-5 bg-light">
+    <div class="container">
+      <div class="row text-center mb-5">
+        <div class="col">
+          <h2>ABOUT US</h2>
+        </div>
+      </div>
+      <!-- card -->
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card text-bg-light mb-3" style="max-width: 19rem;">
+            <div class="card-header">
+              <h5 class="card-title">Activity 1</h5>
+              <p class="card-text">Pengenalan HTML 5 dan CSS 3, Dalam pembuatan Suatu Website.</p>
+              <a href="#" class="btn btn-primary">See Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="img/coding2.jpg" class="card-img-top" alt="MAaf GAmbar ini Rusak">
+            <div class="card-body">
+              <h5 class="card-title">Activity 2</h5>
+              <p class="card-text">HTML 5 dan CSS 3 Lanjutan + Penggunaan Library Bootstarp 5.3.</p>
+              <a href="#" class="btn btn-primary">See Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="img/coding3.jpg" class="card-img-top" alt="MAaf GAmbar ini Rusak">
+            <div class="card-body">
+              <h5 class="card-title">Activity 3</h5>
+              <p class="card-text">Pengenalan Bahasa Pemograman PHP (Hypertext Preprocessor).</p>
+              <a href="#" class="btn btn-primary">See Details</a>
+            </div>
+          </div>
+        </div>
+  <!--end visi,misi  -->
+
   <!-- Footer -->
   <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
       <div class="col-md-4 d-flex align-items-center">
