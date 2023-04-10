@@ -91,9 +91,9 @@
   <!-- visi,misi -->
   <section id="aboutus" class="p-5 bg-light">
     <div class="container">
-      <div class="row text-center mb-5">
+      <div class="row text-left mb-5">
         <div class="col">
-          <h2>ABOUT US</h2>
+          <h2>Visi, Misi, dan Tujuan</h2>
         </div>
       </div>
       <!-- card -->
