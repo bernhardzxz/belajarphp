@@ -65,7 +65,7 @@
         <div class="container-fluid py-5">
           <img src="img/logojumbotron.png" width="200" id="profil" class="rounded-circle img-thumbnail img-responsive">
           <p class="fs-4" style="color: black;"><b>Learning, Creative, Productive </b></p>
-          <button class="btn btn-primary btn-lg" type="button">Go Login</button>
+          <button class="btn btn-primary btn-lg" type="button">Go to Dashboard</button>
         </div>
   </section>
   <!-- End Jumbotron -->
@@ -116,37 +116,6 @@
             <div class="card-body">
               <h5 class="card-title">Activity 4</h5>
               <p class="card-text">Mengimplementasi PHP kedalam sebuah website dan PHP Lanjutan.</p>
-              <a href="#" class="btn btn-primary">See Details</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 mb-3 text-center">
-          <div class="card">
-            <img src="img/coding1.jpg" class="card-img-top" alt="MAaf GAmbar ini Rusak">
-            <div class="card-body">
-              <h5 class="card-title">Activity 1</h5>
-              <p class="card-text">Pengenalan HTML 5 dan CSS 3, Dalam pembuatan Suatu Website.</p>
-              <a href="#" class="btn btn-primary">See Details</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 mb-3 text-center">
-          <div class="card">
-            <img src="img/coding1.jpg" class="card-img-top" alt="MAaf GAmbar ini Rusak">
-            <div class="card-body">
-              <h5 class="card-title">Activity 1</h5>
-              <p class="card-text">Pengenalan HTML 5 dan CSS 3, Dalam pembuatan Suatu Website.</p>
-              <a href="#" class="btn btn-primary">See Details</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 mb-3 text-center">
-          <div class="card">
-            <img src="img/coding1.jpg" class="card-img-top" alt="MAaf GAmbar ini Rusak">
-            <div class="card-body">
-              <h5 class="card-title">Activity 1</h5>
-              <p class="card-text">Pengenalan HTML 5 dan CSS 3, Dalam pembuatan Suatu Website.</p>
               <a href="#" class="btn btn-primary">See Details</a>
             </div>
           </div>
