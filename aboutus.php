@@ -93,7 +93,7 @@
     <div class="container">
       <div class="row text-left mb-5">
         <div class="col">
-          <h2>Visi, Misi, dan Tujuan</h2>
+          <h3>Visi, Misi, dan Tujuan</h3>
         </div>
       </div>
       <!-- card -->
