@@ -101,32 +101,28 @@
         <div class="col-md-4">
           <div class="card text-bg-light mb-3" style="max-width: 19rem;">
             <div class="card-header">
-              <h5 class="card-title">Activity 1</h5>
-              <p class="card-text">Pengenalan HTML 5 dan CSS 3, Dalam pembuatan Suatu Website.</p>
-              <a href="#" class="btn btn-primary">See Details</a>
+              <h5 class="card-title">Visi</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, et ex omnis impedit expedita quo aliquam fugit voluptates deserunt porro dicta suscipit officiis modi soluta.</p>
             </div>
           </div>
         </div>
         <div class="col-md-4">
-          <div class="card">
-            <img src="img/coding2.jpg" class="card-img-top" alt="MAaf GAmbar ini Rusak">
-            <div class="card-body">
-              <h5 class="card-title">Activity 2</h5>
-              <p class="card-text">HTML 5 dan CSS 3 Lanjutan + Penggunaan Library Bootstarp 5.3.</p>
-              <a href="#" class="btn btn-primary">See Details</a>
+          <div class="card text-bg-light mb-3" style="max-width: 19rem;">
+            <div class="card-header">
+              <h5 class="card-title">Misi</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, et ex omnis impedit expedita quo aliquam fugit voluptates deserunt porro dicta suscipit officiis modi soluta.</p>
             </div>
           </div>
         </div>
         <div class="col-md-4">
-          <div class="card">
-            <img src="img/coding3.jpg" class="card-img-top" alt="MAaf GAmbar ini Rusak">
-            <div class="card-body">
-              <h5 class="card-title">Activity 3</h5>
-              <p class="card-text">Pengenalan Bahasa Pemograman PHP (Hypertext Preprocessor).</p>
-              <a href="#" class="btn btn-primary">See Details</a>
+          <div class="card text-bg-light mb-3" style="max-width: 19rem;">
+            <div class="card-header">
+              <h5 class="card-title">Tujuan</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, et ex omnis impedit expedita quo aliquam fugit voluptates deserunt porro dicta suscipit officiis modi soluta.</p>
             </div>
           </div>
         </div>
+      </div>
   <!--end visi,misi  -->
 
   <!-- Footer -->
