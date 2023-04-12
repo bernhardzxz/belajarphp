@@ -14,9 +14,17 @@ if(isset($_POST["username"]) && isset($_POST["password"])){
         $_SESSION["username"] = $_POST["username"];
         $_SESSION["password"] = $_post["password"];
 ?>
-    <script language = "JavaScript">
-        document.location = "dashboard.php";
-    </script>
-<?php
-} else 
+        <script language = "JavaScript">
+            document.location = "dashboard.php";
+        </script>
+    <?php
+    } else {
+    ?>
+        <script language="JavaScript">
+            alert("Terjadi Kesalahan pada username dan password")
+            document.location = "index.php"
+        </script>
+    <?php
+    }
+}
 ?>
