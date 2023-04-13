@@ -41,7 +41,7 @@
             </a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="#">Register</a></li>
-              <li><a class="dropdown-item" href="#">Dashboard</a></li>
+              <li><a class="dropdown-item" href="admin">Dashboard</a></li>
               <li><a class="dropdown-item" href="#">Setting</a></li>
             </ul>
           </li>

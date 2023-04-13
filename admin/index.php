@@ -1,13 +1,14 @@
 <!doctype html>
 <html lang="en" data-bs-theme="auto">
-  <head><script src="../assets/js/color-modes.js"></script>
+  <head><script src="/docs/5.3/assets/js/color-modes.js"></script>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.111.3">
-    <title>Login Site</title>
+    <title>kelasTI.com</title>
+    <link rel="shortcut icon" href="favicon/favicon.png" type="image/x-icon">
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/sign-in/">
     <!-- Link css online -->
@@ -18,7 +19,7 @@
   </head>
   <body class="text-center">
     <main class="form-signin w-100 m-auto">
-      <form action = "check.php" method="post">
+      <form action="check.php" method="post">
         <img class="mb-4" src="../img/logojumbotron.png" alt="" width="72" height="57">
         <h1 class="h3 mb-3 fw-normal">Sign in</h1>
         <div class="form-floating mb-2">
@@ -27,7 +28,7 @@
         </div>
         <div class="form-floating">
           <input type="password" class="form-control" id="password" placeholder="password">
-          <label for="password">Password</label>
+          <label for="password">password</label>
         </div>
         <button class="w-100 btn btn-lg btn-primary" type="submit">submit</button>
         <p class="mt-5 mb-3 text-body-secondary">&copy; 2022–2023</p>
