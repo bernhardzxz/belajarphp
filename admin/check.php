@@ -1,4 +1,5 @@
 <?php
+echo "hi";
 session_start();
 include 'config.php';
 $username = "";
@@ -8,7 +9,7 @@ if(isset($_POST["username"]) && isset($_POST["password"])){
     $pw = md5($koneksi->real_escape_string($_POST["password"]));
     $sql = "select * from tb_user where (username='$un') and (password= '$pw')";
     $result = $koneksi->query($sql);
-    if ($result->num_rows == 1){
+    if ($result->num_rows == 3){
         $username = $_POST["username"];
         $password = $_POST["password"];
         $_SESSION["username"] = $_POST["username"];
