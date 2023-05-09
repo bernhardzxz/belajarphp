@@ -170,6 +170,7 @@
         </a>
         <span class="mb-3 mb-md-0 text-muted">&copy; All rights reserved | <b>Bernhard Corp.</b></span>
       </div>
+  </footer>
     <!-- End Footer -->
 
     <!-- Script Section Jumbotron -->
