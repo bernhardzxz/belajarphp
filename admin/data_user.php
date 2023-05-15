@@ -6,7 +6,11 @@
 <script>
     function ConfirmDelete()
     {
-        var del = confirm
+        var del = confirm("Yakin data akan di hapus?");
+        if (delete)
+            return true;
+        else 
+            return false;
     }
 </script>
 
@@ -22,18 +26,54 @@
                 <thead>
                     <tr>
                         <th>No.</th>
-                        <th>Header Table</th>
-                        <th>Header Table</th>
+                        <th>Username</th>
+                        <th>Password</th>
+                        <th>Action</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td>Isi Table</td>
-                        <td>Isi Table</td>
-                    </tr>
+                    <?php
+                        $i=1;
+                        $no=1;
+                        while ($row = mysqli_fetch_array($hasil)){
+                            echo "<try>";
+                            echo "<td>$no</td>";
+                            echo "<td>$row[username]</td>";
+                            echo "<td>$row[password]</td>";
+                            echo "<td>
+                                <a href='dashboard.php?dashboard=hapus_user&id=$row[id_user]'Onclick='return ConfirDelete();'>
+                                <i class='bi bi-trash'></i><a>&nbsp;&nbsp;
+                                <a href='' data-bs-toggle='modal' data-bs-target='#edit$row[id_user]'>
+                                <i class='bi bi-pencil-square'></i></a>
+                                </td>";
+                            echo "</tr>";
+                            $no++;
+                        }
+                        ?>
                 </tbody>
             </table>
         </div>
     </div>
 </section>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Tambah User</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form action="tmb_user.php" method="post">
+                <div class="modal-body">
+                    <input type="text" name="username" class="form-control" placeholder="username" required><br>
+                    <input type="password" name="password" class="form-control" placeholder="Password" required>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
+                    <button type="submit" name="submit" class="btn btn-primary">Simpan</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
