@@ -1,7 +1,8 @@
 <?php
     include 'config.php';
     $id=$_GET["id"];
-    $query=$koneksi->query($query);
+    $query="delete FROM tb_user where id_user='$id'";
+    $hasil=$koneksi->query($query);
     if ($hasil){
         ?>
             <script language="javascript"> 
