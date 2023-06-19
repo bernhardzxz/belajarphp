@@ -41,15 +41,39 @@
                             echo "<td>$row[username]</td>";
                             echo "<td>$row[password]</td>";
                             echo "<td>
-                                <a href='dashboard.php?dashboard=hapus_user&id=$row[id_user]'Onclick='return ConfirDelete();'>
+                                <a href='dashboard.php?dashboard=hapus_user&id=$row[id_user]'Onclick='return ConfirmDelete();'>
                                 <i class='bi bi-trash'></i><a>&nbsp;&nbsp;
                                 <a href='' data-bs-toggle='modal' data-bs-target='#edit$row[id_user]'>
                                 <i class='bi bi-pencil-square'></i></a>
                                 </td>";
                             echo "</tr>";
                             $no++;
-                        }
                         ?>
+                    <!-- Modal Edit-->
+                    <div class="modal fade" id="edit<?php echo $row['id_user']; ?>" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Edit USer</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <form action="edit_user.php" method="post" enctype="multipart/form-data">
+                                    <input type="hidden" name="id_user" value="<?php echo $row ['id_user']; ?>">
+                                    <div class="modal-body">
+                                        <input type="text" name="username" class="form-control" Value="<?php echo $row ['username']; ?>"><br>
+                                        <input type="text" name="password" class="form-control" Value="<?php echo $row ['password']; ?>"><br>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
+                                        <button type="submit" name="submit" class="btn btn-primary">Simpan</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <?php
+                    }
+                    ?>
                 </tbody>
             </table>
         </div>
